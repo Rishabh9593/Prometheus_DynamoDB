@@ -21,6 +21,5 @@ Else we will be able to add lambda in Subscriptions to SNS, but trigger link wil
 
 # DYNAMODB
 
-- Hash_key is partition key
-range key is sort_key
+- Hash_key is partition key, range key is sort_key
 
