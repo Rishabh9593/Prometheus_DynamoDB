@@ -17,7 +17,7 @@ I added policy code from CloudWatchFullAccess and AmazonDynamoDBFullAccess.
 - In policy attachment resource, attached the policy to IAM role created above.
 - This step is very important, else our lambda won’t be able to fetch data from SNS.
 Resource aws_lambda_permission is needed to link things from lambda side.
-Else we will be able to add lambda in Subscriptions to SNS, but trigger link will be missing.
+Else we will be able to add lambda in Subscriptions to SNS, but trigger link will be missing from lambda side.
 
 # DYNAMODB
 
